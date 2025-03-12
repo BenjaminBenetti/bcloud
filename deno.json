@@ -1,4 +1,9 @@
 {
+  "workspaces": [
+    "web",
+    "services",
+    "lib"
+  ],
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
