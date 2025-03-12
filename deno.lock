@@ -18,6 +18,18 @@
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@1"
-    ]
+    ],
+    "members": {
+      "lib/web-common": {
+        "dependencies": [
+          "jsr:@std/assert@1"
+        ]
+      },
+      "web/cloud-console": {
+        "dependencies": [
+          "jsr:@std/assert@1"
+        ]
+      }
+    }
   }
 }
