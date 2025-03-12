@@ -1,8 +1,7 @@
 {
   "workspace": [
-    "web",
-    "services",
-    "lib"
+    "web/cloud-console",
+    "lib/web-common"
   ],
   "tasks": {
     "dev": "deno run --watch main.ts"

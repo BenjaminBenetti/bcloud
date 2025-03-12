@@ -1,4 +1,7 @@
 {
+  "name": "@cloud/common",
+  "version": "0.1.0",
+  "exports": "./main.ts",
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
