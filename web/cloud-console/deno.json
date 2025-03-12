@@ -1,5 +1,5 @@
 {
-  "name": "@cloud/console",
+  "name": "@bcloud/cloud-console",
   "version": "0.1.0",
   "exports": "./main.ts",
   "tasks": {
