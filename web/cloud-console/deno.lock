@@ -1,13 +1,10 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@std/assert@1": "1.0.11",
-    "jsr:@std/internal@^1.0.5": "1.0.5",
     "npm:@eslint/js@^9.21.0": "9.22.0",
     "npm:@types/react-dom@^19.0.4": "19.0.4_@types+react@19.0.10",
     "npm:@types/react@^19.0.10": "19.0.10",
     "npm:@vitejs/plugin-react@^4.3.4": "4.3.4_vite@6.2.1_@babel+core@7.26.10",
-    "npm:create-vite@latest": "6.3.1",
     "npm:eslint-plugin-react-hooks@^5.1.0": "5.2.0_eslint@9.22.0",
     "npm:eslint-plugin-react-refresh@~0.4.19": "0.4.19_eslint@9.22.0",
     "npm:eslint@^9.21.0": "9.22.0",
@@ -16,19 +13,7 @@
     "npm:react@19": "19.0.0",
     "npm:typescript-eslint@^8.24.1": "8.26.1_eslint@9.22.0_typescript@5.7.3_@typescript-eslint+parser@8.26.1__eslint@9.22.0__typescript@5.7.3",
     "npm:typescript@~5.7.2": "5.7.3",
-    "npm:vite@6.2.1": "6.2.1",
     "npm:vite@^6.2.0": "6.2.1"
-  },
-  "jsr": {
-    "@std/assert@1.0.11": {
-      "integrity": "2461ef3c368fe88bc60e186e7744a93112f16fd110022e113a0849e94d1c83c1",
-      "dependencies": [
-        "jsr:@std/internal"
-      ]
-    },
-    "@std/internal@1.0.5": {
-      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
-    }
   },
   "npm": {
     "@ampproject/remapping@2.3.0": {
@@ -643,9 +628,6 @@
     "convert-source-map@2.0.0": {
       "integrity": "sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg=="
     },
-    "create-vite@6.3.1": {
-      "integrity": "sha512-kI3S6OgiBYnRlmhr4gNY76Fj62fMh+KukEd2PSAvMPdnY95rHhJCjCoUlt4BuHVNjfmRMbsFBBtO5dryFoSyUw=="
-    },
     "cross-spawn@7.0.6": {
       "integrity": "sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==",
       "dependencies": [
@@ -1207,31 +1189,22 @@
     }
   },
   "workspace": {
-    "members": {
-      "lib/web-common": {
-        "dependencies": [
-          "jsr:@std/assert@1"
-        ]
-      },
-      "web/cloud-console": {
-        "packageJson": {
-          "dependencies": [
-            "npm:@eslint/js@^9.21.0",
-            "npm:@types/react-dom@^19.0.4",
-            "npm:@types/react@^19.0.10",
-            "npm:@vitejs/plugin-react@^4.3.4",
-            "npm:eslint-plugin-react-hooks@^5.1.0",
-            "npm:eslint-plugin-react-refresh@~0.4.19",
-            "npm:eslint@^9.21.0",
-            "npm:globals@^15.15.0",
-            "npm:react-dom@19",
-            "npm:react@19",
-            "npm:typescript-eslint@^8.24.1",
-            "npm:typescript@~5.7.2",
-            "npm:vite@^6.2.0"
-          ]
-        }
-      }
+    "packageJson": {
+      "dependencies": [
+        "npm:@eslint/js@^9.21.0",
+        "npm:@types/react-dom@^19.0.4",
+        "npm:@types/react@^19.0.10",
+        "npm:@vitejs/plugin-react@^4.3.4",
+        "npm:eslint-plugin-react-hooks@^5.1.0",
+        "npm:eslint-plugin-react-refresh@~0.4.19",
+        "npm:eslint@^9.21.0",
+        "npm:globals@^15.15.0",
+        "npm:react-dom@19",
+        "npm:react@19",
+        "npm:typescript-eslint@^8.24.1",
+        "npm:typescript@~5.7.2",
+        "npm:vite@^6.2.0"
+      ]
     }
   }
 }

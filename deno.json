@@ -1,12 +1,7 @@
 {
+  "nodeModulesDir": "manual",
   "workspace": [
     "web/cloud-console",
     "lib/web-common"
-  ],
-  "tasks": {
-    "dev": "deno run --watch main.ts"
-  },
-  "imports": {
-    "@std/assert": "jsr:@std/assert@1"
-  }
+  ]
 }
