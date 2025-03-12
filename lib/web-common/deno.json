@@ -1,7 +1,7 @@
 {
   "name": "@bcloud/web-common",
   "version": "0.1.0",
-  "exports": "./main.ts",
+  "exports": "./index.ts",
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
