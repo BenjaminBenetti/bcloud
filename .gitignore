@@ -1,2 +1,4 @@
 .aider*
+.vite
+*.tsbuildinfo
 node_modules
