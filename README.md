@@ -1,4 +1,6 @@
-# Home Cloud Console
+<img src="./doc/bcloud.png" alt="bcloud" width="64" height="64" />
+
+## Bcloud - A Home Cloud Console
 
 This project aims to provide a simplified, cloud-like user interface for managing applications deployed on a local [k3s](https://k3s.io/) cluster.  It's designed to be a self-hosted "home cloud" solution, giving you the ability to deploy and manage containerized applications within your home network. The project itself is designed to run *on* the k3s cluster it manages, providing a unified deployment and management experience.
 
